@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zwonb.theapp.view.WelcomeVideoView
+        android:id="@+id/welcome_video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <Button
+        android:id="@+id/welcome_into"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center|bottom"
+        android:text="开启体验"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>
