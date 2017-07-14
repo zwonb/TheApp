@@ -1,4 +1,4 @@
-package com.zwonb.tool.base;
+package com.zwonb.theapp.base;
 
 /**
  * 动态权限申请完成后的回调接口

@@ -6,4 +6,10 @@
 
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
+
+    <color name="img_click_bg">#32ffffff</color>
+    <color name="img_click_bg_1">#32000000</color>
+    <color name="btnWelcomeFalse">#bc009688</color>
+    <color name="btnWelcomeTrue">#7f009688</color>
+
 </resources>

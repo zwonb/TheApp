@@ -1,14 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#009688</color>
-    <color name="colorPrimaryDark">#00796B</color>
-    <color name="colorAccent">#448AFF</color>
-
-    <color name="white">#FFFFFF</color>
-
-    <color name="black">#000000</color>
-    <color name="img_click_bg">#32ffffff</color>
-    <color name="img_click_bg_1">#32000000</color>
-
 
 </resources>

@@ -12,11 +12,13 @@
 
     <Button
         android:id="@+id/welcome_into"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="30dp"
         android:layout_gravity="center|bottom"
         android:text="开启体验"
-        android:background="@color/white"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:background="@drawable/btn_click_bg"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="40dp"/>
 
 </FrameLayout>

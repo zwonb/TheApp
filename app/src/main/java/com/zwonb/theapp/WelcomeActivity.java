@@ -6,8 +6,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
+import com.zwonb.theapp.base.BaseActivity;
 import com.zwonb.theapp.view.WelcomeVideoView;
-import com.zwonb.tool.base.BaseActivity;
 
 public class WelcomeActivity extends BaseActivity {
 
@@ -16,7 +16,6 @@ public class WelcomeActivity extends BaseActivity {
 
     @Override
     protected void init(Bundle savedInstanceState) {
-//        StatusBarUtil.setTranslucent(this,60);
         setContentView(R.layout.activity_welcome);
         videoView = getViewById(R.id.welcome_video_view);
         videoView.setVideoURI(Uri.parse("android.resource://"
@@ -35,6 +34,7 @@ public class WelcomeActivity extends BaseActivity {
                     videoView = null;
                 }
                 startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+                overridePendingTransition(R.anim.welcome_enter,R.anim.welcome_exit);
                 finish();
             }
         });

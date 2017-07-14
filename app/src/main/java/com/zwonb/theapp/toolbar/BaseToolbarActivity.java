@@ -1,4 +1,4 @@
-package com.zwonb.tool.toolbar;
+package com.zwonb.theapp.toolbar;
 
 import android.os.Bundle;
 import android.support.annotation.DrawableRes;
@@ -14,8 +14,8 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.zwonb.tool.R;
-import com.zwonb.tool.base.BaseActivity;
+import com.zwonb.theapp.R;
+import com.zwonb.theapp.base.BaseActivity;
 
 import java.util.ArrayList;
 import java.util.List;

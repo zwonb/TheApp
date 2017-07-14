@@ -1,15 +1,15 @@
 package com.zwonb.theapp;
 
 import android.Manifest;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Toast;
 
-import com.zwonb.tool.base.BasePermissionActivity;
-import com.zwonb.tool.base.PermissionCallBack;
-import com.zwonb.tool.toolbar.ToolbarMenuListen;
+import com.zwonb.theapp.base.BasePermissionActivity;
+import com.zwonb.theapp.base.PermissionCallBack;
+import com.zwonb.theapp.toolbar.ToolbarMenuListen;
+
 
 public class MainActivity extends BasePermissionActivity implements ToolbarMenuListen {
 
@@ -63,6 +63,6 @@ public class MainActivity extends BasePermissionActivity implements ToolbarMenuL
     }
 
     public void start1(View view) {
-        startActivity(new Intent(this, Main2Activity.class));
+        startActivity(Main2Activity.class);
     }
 }

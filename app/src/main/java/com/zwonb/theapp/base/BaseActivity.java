@@ -1,5 +1,6 @@
-package com.zwonb.tool.base;
+package com.zwonb.theapp.base;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.ColorInt;
 import android.support.annotation.IdRes;
@@ -38,6 +39,10 @@ public abstract class BaseActivity extends AppCompatActivity implements BGASwipe
 
     protected <V extends View> V getViewById(@IdRes int id) {
         return (V) findViewById(id);
+    }
+
+    protected void startActivity(Class<?> cls) {
+        startActivity(new Intent(this, cls));
     }
 
     /**
@@ -104,6 +109,7 @@ public abstract class BaseActivity extends AppCompatActivity implements BGASwipe
             return;
         }
 //        super.onBackPressed();
+        finish();
         mSwipeBackHelper.backward();
     }
 
